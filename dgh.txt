@@ -1,0 +1,4 @@
+if sizetimer is above recent size timer AND NOT >= 10, sizetimer++, recentsizetimer++
+else if sizetimer is below recent size AND NOT >= 1, sizetimer--, recentsizetimer--
+else if sizetimer is 10, sizetimer--, recentsizetimer++
+else if sizetimer is 1, sizetimer++, recentsizetimer--
